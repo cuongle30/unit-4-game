@@ -1,0 +1,70 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body {
+    background: URL("../images/background.jpg");
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    background-repeat: no-repeat;
+}
+.header {
+    width: 280px;
+    height: 60px;
+    background: rgb(255, 102, 0);
+    text-align: center;
+    padding-top: 5px;
+    margin: 5px 5px 0px 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#instruction {
+    background: rgb(223, 192, 197);
+    margin: 5px 0px 0px 5px;
+    width: 500px;
+    padding: 5px 0px 0px 10px;
+    font-size: 13px;
+    color: rgb(45, 114, 45);
+}
+img {
+    width: 70px;
+    height: 70px;
+    margin: 0px 5px 0px 0px;
+}
+#emerald {
+    margin-left: 15px;
+}
+#random-number {
+    width: 200px;
+    height: 100px;
+    background: rgb(80, 170, 80);
+    text-align: center;
+    padding: 20px; 
+    font-size: 40px;
+}
+.score {
+    width: 120px;
+    height: 100px;
+    background: rgb(48, 167, 151);
+    padding: 20px 5px 0px 10px;
+}
+.score-message {
+    background: #4aaaa5;
+    width: 300px;
+    margin-left: 5px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+#total {
+    background: #4aaaa5;
+    width: 300px;
+    height: 150px;
+    margin-left: 5px;
+}

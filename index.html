@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Jewels</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="header">CrystalCollector!</div> 
+    <div class="container" id="instruction">
+            <div class="row">
+                    <div class="col-lg-12">
+        <p>You will be given random number at the start of the game.</p>
+        <p>There are four crystals beow. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes aobe the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+</div>
+    </div>
+    <div class="display">
+            <div class="row">
+                    <div class="col-md-2">
+        <div class="text-center" id= "random-number">???</div>
+                    </div>
+        
+            <div class="col-md-4">
+                    <div class="score">
+            <div class="win" id="win-score">Wins: </div>
+            <div class="lose" id="lose-score">Losses: </div>
+        
+                    </div>
+                    </div>
+                    </div>
+    </div>
+        <div class="jewels">
+            <div class="row">
+                <div class="col-sm-0">
+                <button><img class="crystal" src="assets/images/Emerald.png" id="emerald"></button>
+                </div>
+                <div class="col-sm-0">
+                <button><img class="crystal" src="assets/images/diamond.jpg" id="diamond"></button>
+                </div>
+                <div class="col-sm-0">
+                <button><img class="crystal" src="assets/images/longdiamond.png"  id="longdiamond"></button>
+                </div>
+                <div class="col-sm-0">
+                <button><img class="crystal" src="assets/images/square.jpg" id="square"></button>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="score-message"><h2>Your total score is: </h2></div>
+        <h3 class="text-center" id= "total"></h3>
+    
+        <script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+</html>
